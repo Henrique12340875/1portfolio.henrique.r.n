@@ -59,7 +59,7 @@ body{
     margin-top: 0px;
     border: #ADB0CC solid 2px;
 }
-@media(max-width: 600px){
+@media(max-width: 900px){
     *{
         padding: 0;
         margin: 0;
