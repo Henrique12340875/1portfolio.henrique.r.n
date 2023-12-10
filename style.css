@@ -59,3 +59,66 @@ body{
     margin-top: 0px;
     border: #ADB0CC solid 2px;
 }
+@media(max-width: 600px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        background-color: rgb(255, 255, 255);
+    }
+    .portfolio-container{
+        margin: 0 auto;
+    }
+    .logo{
+        background-color: rgb(0, 0, 0);
+        padding: 6px;
+        color: white;
+        height: 10%;
+        text-align: center;
+        margin-bottom: 6px;
+    }
+    .text-logo{
+        border: white solid 2px;
+        padding: 15px;
+    }
+    .languages{
+        text-align: center;
+        margin-bottom: 5px;
+        background-color: gray;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 5px;
+        border: rgb(0, 0, 0) solid 4px;
+        border-radius: 4px;
+    }
+    .sites{
+        text-align: center;
+        margin-top: 5px;
+        background-color: gray;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 60px;
+        border: rgb(0, 0, 0) solid 4px;
+        border-radius: 4px;
+    }
+    .languages .text-languages{
+        margin-bottom: 2px;
+    }
+    .sites .text-sites{
+        margin-top: 1px;
+        margin-bottom: 40px;
+    }
+    .sites .kervette{
+        text-decoration: none;
+        color: #ADB0CC;
+        background-color: #0D1133;
+        padding: 25px;
+        margin-top: 0px;
+        border: #ADB0CC solid 2px;
+    }
+}
